@@ -16,7 +16,7 @@
         android:layout_width="333dp"
         android:layout_height="455dp"
         android:layout_gravity="center_vertical|center_horizontal"
-        android:text="woof bark " />
+        android:text="woof bork " />
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
