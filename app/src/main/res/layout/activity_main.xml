@@ -26,7 +26,7 @@
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="527dp"
+        android:layout_height="528dp"
         app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
 
     </android.support.v4.widget.NestedScrollView>
