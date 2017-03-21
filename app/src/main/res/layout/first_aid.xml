@@ -11,13 +11,6 @@
         android:id="@+id/include"
         layout="@layout/content_info_page1" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="333dp"
-        android:layout_height="455dp"
-        android:layout_gravity="center_vertical|center_horizontal"
-        android:text="woof bork " />
-
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,10 +21,10 @@
             android:id="@+id/textView2"
             android:layout_width="337dp"
             android:layout_height="0dp"
-            android:text="" />
+            android:text="gaga" />
 
         <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+            android:id="@+id/f"
             android:layout_width="match_parent"
             android:layout_height="49dp"
             android:background="?attr/colorPrimary"
@@ -50,6 +43,22 @@
         android:text="Back"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="bottom|left" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
 
 
 </android.support.design.widget.CoordinatorLayout>
