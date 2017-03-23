@@ -21,7 +21,7 @@
             android:id="@+id/textView2"
             android:layout_width="337dp"
             android:layout_height="0dp"
-            android:text="gaga" />
+            android:text="moon" />
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/f"
