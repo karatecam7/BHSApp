@@ -22,98 +22,103 @@
 
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/button10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/button6"
+            android:layout_below="@+id/button5"
             android:onClick="goToSwim"
             android:text="How to teach your dog how to swim" />
 
         <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="goToFirstAid"
-            android:text="First Aid for Pets"
-            android:layout_below="@+id/button8"
-            android:layout_alignStart="@+id/button8" />
 
-        <Button
-            android:id="@+id/button2"
+            android:id="@+id/button9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="50dp"
+            android:onClick="goToFirstAid"
+            android:text="First Aid for Pets"></Button>
+
+        <Button
+
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button8"
             android:onClick="goToColdWeather"
             android:text="Cold Weather" />
+
+        <Button
+
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goToCatSeperation"
+            android:text="Cat Separation Anxiety"
+            android:layout_below="@+id/button5"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="45dp" />
+
+        <Button
+
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button11"
+            android:onClick="goToChangeName"
+            android:text="Changing your Dog's Name" />
+
+        <Button
+
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button4"
+            android:layout_marginTop="30dp"
+            android:onClick="goToFoodToAvoid"
+            android:text="Foods to avoid" />
+
+        <Button
+
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button2"
+            android:onClick="goToFourth"
+            android:text="Fourth of July" />
+
+        <Button
+
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/button8"
+            android:layout_below="@+id/button7"
+            android:onClick="goToSidewalks"
+            android:text="Hot sidewalks" />
 
         <Button
             android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="100dp"
-            android:onClick="goToCatSeperation"
-            android:text="Cat Separation Anxiety" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="150dp"
-            android:onClick="goToChangeName"
-            android:text="Changing your Dog's Name" />
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="200dp"
-            android:onClick="goToFoodToAvoid"
-            android:text="Foods to avoid" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="250dp"
-            android:onClick="goToFourth"
-            android:text="Fourth of July" />
+            android:onClick="goToHouseHazards"
+            android:text="House Hazards"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
 
         <Button
             android:id="@+id/button8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/button5"
+            android:layout_alignParentStart="true"
             android:layout_below="@+id/button9"
-            android:onClick="goToSidewalks"
-            android:text="Hot sidewalks" />
-
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="goToHouseHazards"
-            android:text="House Hazards"
-            android:layout_alignParentTop="true"
-            android:layout_alignStart="@+id/button8" />
-        <Button
-            android:id="@+id/button12121"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:onClick="goToWarmWeather"
-            android:text="Warm Weather"
-            android:layout_below="@+id/button1"
-            android:layout_alignStart="@+id/button1" />
+            android:text="Warm Weather" />
 
     </RelativeLayout>
 </android.support.design.widget.CoordinatorLayout>
