@@ -3,62 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context="opportunityhack.bhsapp.InfoPage1">
+    android:layout_height="match_parent">
 
-    <include
-        android:id="@+id/include"
-        layout="@layout/content_info_page1" />
 
-    <android.support.design.widget.AppBarLayout
+    <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="528dp"
+        app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
 
+    </android.support.v4.widget.NestedScrollView>
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="337dp"
-            android:layout_height="0dp"
-            android:text="gaga" />
+    <RelativeLayout
+        android:id="@+id/litter_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/f"
-            android:layout_width="match_parent"
-            android:layout_height="49dp"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
-    </android.support.design.widget.AppBarLayout>
+        tools:context="opportunityhack.bhsapp.MainActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_gravity="top|right"
-        android:layout_marginTop="50dp"
-        android:onClick="goToActivitymain"
-        android:text="Back"
-        app:layout_anchor="@+id/include"
-        app:layout_anchorGravity="bottom|left" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:onClick="goToMain"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
-
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
-
-
+    </RelativeLayout>
 </android.support.design.widget.CoordinatorLayout>
