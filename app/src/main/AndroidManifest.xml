@@ -16,9 +16,65 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".InfoPage1"
+            android:name="opportunityhack.bhsapp.FirstAid"
             android:label="@string/title_activity_info_page1"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="opportunityhack.bhsapp.WarmWeather"
+            android:label="@string/title_activity_info_page1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="opportunityhack.bhsapp.Swim"
+            android:label="@string/title_activity_info_page1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="opportunityhack.bhsapp.LostPet"
+            android:label="@string/title_activity_info_page1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="opportunityhack.bhsapp.LitterBox"
+            android:label="@string/title_activity_info_page1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="opportunityhack.bhsapp.HouseHazard"
+            android:label="@string/title_activity_info_page1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="opportunityhack.bhsapp.HotSidewalk"
+            android:label="@string/title_activity_info_page1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="opportunityhack.bhsapp.FourthOfJuly"
+            android:label="@string/title_activity_info_page1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="opportunityhack.bhsapp.FoodToAvoid"
+            android:label="@string/title_activity_info_page1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="opportunityhack.bhsapp.ColdWeather"
+            android:label="@string/title_activity_info_page1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="opportunityhack.bhsapp.ChangeDogName"
+            android:label="@string/title_activity_info_page1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="opportunityhack.bhsapp.CatSepAnx"
+            android:label="@string/title_activity_info_page1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
     </application>
 
 </manifest>
