@@ -37,7 +37,7 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
-        android:layout_height="899dp"
+        android:layout_height="463dp"
         android:text="July 4th is a day filled with family and friends, cookouts, parties, and fireworks.  But all that commotion can be upsetting to a pet, and according to the Missing Pet Partnership organization it is the day with the highest level of reported lost pets. Fireworks, picnics and other Fourth of July traditions can be great fun for people; but all of the festivities can be frightening and even dangerous for animals. Noisy fireworks and other celebrations can startle animals and cause them to run away
 
 Here are tips for keeping your pet safe and protected on Independence Day and every day of the year.
