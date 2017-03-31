@@ -29,5 +29,47 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true" />
 
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+
     </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="899dp"
+        android:text="July 4th is a day filled with family and friends, cookouts, parties, and fireworks.  But all that commotion can be upsetting to a pet, and according to the Missing Pet Partnership organization it is the day with the highest level of reported lost pets. Fireworks, picnics and other Fourth of July traditions can be great fun for people; but all of the festivities can be frightening and even dangerous for animals. Noisy fireworks and other celebrations can startle animals and cause them to run away
+
+Here are tips for keeping your pet safe and protected on Independence Day and every day of the year.
+•	It is crucial to make sure both dogs and cats have some form of identification on them.
+o	All pets should have identification tags with up-to-date information.
+o	Multiple forms work best. Microchips are an excellent form of permanent identification.  Baltimore Humane Society’s Low Cost Veterinary Wellness Center will chip your pet for only $22.  A visible collar with an identification tag is also invaluable.  Include the pet’s name and your best telephone number.  If your pet is already microchipped, be sure your contact information is up-to-date in the microchip registry.
+•	Take a current photo of your pets.
+•	Have a safe spot in your home for your pet to stay in and keep them inside if neighbors are setting off fireworks.
+o	Be sure it is secure with no easy access to the outside.
+o	Prepare some fun food puzzles or stuff some Kong toys and stick them in the freezer for fun pupsicles to keep your pets happy and busy throughout the evening.
+•	Make sure your pets get plenty of exercise throughout the day so they do not have pent up energy that night.
+•	If you pet has historically been anxious on this holiday, consider behavioral therapy to desensitize.  Some pets may need medication.
+•	DO NOT bring them with you to the fireworks!
+o	Fireworks are very loud to us, but even louder to our pets and will easily startle them, triggering their flight or fear response. Your pets will be much happier left at home in the comfort of their familiar surroundings.
+
+If your pet runs off—
+First, DO NOT run after him or her.  If dogs and cats are frightened (which they most likely will be) running after them will trigger that flight response again and cause them to run even further.  Instead, turn your back and walk away like you want them to chase you, or sit or lay down flat on the ground.  Your pet will most likely come to you to investigate what you are doing.
+
+If you come home to find your pet has run away, immediately call the microchip company (if your pet has one) to notify them.  Canvas the neighborhood and contact area veterinarians, shelters, and animal control facilities to report your pet missing.  Give them fliers with a recent picture, identifying features, and contact information.  Be sure to post it on Facebook and other social media lost pet sites.
+
+After the celebration –
+Check your yard for fireworks debris.  You don’t want your pet picking it up to play with or eat.
+
+Keep your pets safe!  Don’t take a chance on losing them this Fourth of July.  But do take a chance on adopting a pet in need of a loving home.  In honor of the Fourth of July, Baltimore Humane Society is running its “Take a Chance on Us” Special.  Draw a red, white, or blue ticket to see if you receive a 25%, 50%, or 75% discounted adoption fee throughout the month of July.
+" />
 </android.support.design.widget.CoordinatorLayout>
