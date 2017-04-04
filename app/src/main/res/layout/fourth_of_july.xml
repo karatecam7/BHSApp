@@ -5,10 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="vertical"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="528dp"
@@ -18,15 +15,12 @@
 
     tools:context="opportunityhack.bhsapp.MainActivity">
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Back"
-            android:onClick="goToActivitymain"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentStart="true" />
 
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="455dp"
+        android:id="@+id/linearLayout">
     <ScrollView
             android:id="@+id/SCROLLER_ID"
             android:layout_width="fill_parent"
@@ -67,4 +61,16 @@ Keep your pets safe!  Don’t take a chance on losing them this Fourth of July. 
 
     </ScrollView>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom|right"
+        android:onClick="goToActivitymain"
+        android:text="Back"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="bottom|left" />
 </android.support.design.widget.CoordinatorLayout>
