@@ -11,29 +11,44 @@
         android:layout_height="528dp"
         app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
 
-    </android.support.v4.widget.NestedScrollView>
+    </android.support.v4.widget.NestedScrollView><![CDATA[
 
     tools:context="opportunityhack.bhsapp.MainActivity">
 
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:orientation="vertical"
+    ]]>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom|right"
+        android:onClick="goToActivitymain"
+        android:text="Back"
+        app:layout_anchor="@+id/linearLayout"
+        app:layout_anchorGravity="bottom|left" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="fill_parent"
-        android:layout_height="455dp"
-        android:id="@+id/linearLayout">
-    <ScrollView
+        android:layout_height="465dp"
+        android:orientation="vertical">
+
+        <ScrollView
             android:id="@+id/SCROLLER_ID"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:scrollbars="vertical"
-            android:fillViewport="true">
+            android:fillViewport="true"
+            android:scrollbars="vertical">
 
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="456dp"
-        android:text="July 4th is a day filled with family and friends, cookouts, parties, and fireworks.  But all that commotion can be upsetting to a pet, and according to the Missing Pet Partnership organization it is the day with the highest level of reported lost pets. Fireworks, picnics and other Fourth of July traditions can be great fun for people; but all of the festivities can be frightening and even dangerous for animals. Noisy fireworks and other celebrations can startle animals and cause them to run away
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="July 4th is a day filled with family and friends, cookouts, parties, and fireworks.  But all that commotion can be upsetting to a pet, and according to the Missing Pet Partnership organization it is the day with the highest level of reported lost pets. Fireworks, picnics and other Fourth of July traditions can be great fun for people; but all of the festivities can be frightening and even dangerous for animals. Noisy fireworks and other celebrations can startle animals and cause them to run away
 
 Here are tips for keeping your pet safe and protected on Independence Day and every day of the year.
 •	It is crucial to make sure both dogs and cats have some form of identification on them.
@@ -59,18 +74,6 @@ Check your yard for fireworks debris.  You don’t want your pet picking it up t
 Keep your pets safe!  Don’t take a chance on losing them this Fourth of July.  But do take a chance on adopting a pet in need of a loving home.  In honor of the Fourth of July, Baltimore Humane Society is running its “Take a Chance on Us” Special.  Draw a red, white, or blue ticket to see if you receive a 25%, 50%, or 75% discounted adoption fee throughout the month of July.
 " />
 
-    </ScrollView>
+        </ScrollView>
     </LinearLayout>
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
-        android:layout_gravity="bottom|right"
-        android:onClick="goToActivitymain"
-        android:text="Back"
-        app:layout_anchor="@+id/linearLayout"
-        app:layout_anchorGravity="bottom|left" />
 </android.support.design.widget.CoordinatorLayout>
