@@ -19,6 +19,50 @@
         android:layout_height="match_parent"
 
         tools:context="opportunityhack.bhsapp.MainActivity">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="465dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/SCROLLER_ID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="What would you do if:
+...your dog ate the bag of semi-sweet chocolate chips that was left out on the kitchen counter?
+...your cat had a seizure right in front of you?
+...your dog fell down the stairs and started limping?
+...your cat was overheating on a hot summer day?
+To avoid the feelings of panic that may accompany these situations, we recommend the following steps to better prepare you for a pet medical emergency. The following links summarize the basics you need for giving first aid care to your pet.
+
+Always remember that any first aid administered to your pet should be followed by immediate veterinary care. First aid care is not a substitute for veterinary care, but it may save your pet's life until it receives veterinary treatment.
+First aid supplies
+Our handy checklist tells you all the supplies you should have on hand for pet first aid. Print out a copy to use for shopping, and keep a copy on your refrigerator or next to the first aid kit for your family, for quick reference in emergencies.
+How to handle an injured pet
+Knowing how to comfort an injured pet can help minimize your pet's anxiety and also protect you and your family from injury.
+Basic pet first aid procedures
+Read our simple instructions for providing emergency first aid if your pet is suffering from poisoning, seizures, broken bones, bleeding, burns, shock, heatstroke, choking or other urgent medical problems. Print out a copy to keep with your pet emergency kit.
+First aid when traveling with your pet
+A few simple steps can better prepare you to help your pet in first aid situations while you are traveling. Remember: pet medical emergencies don't just happen at home.
+Pets and disasters
+Whether confronted by natural disasters such as hurricanes, or unexpected catastrophes such as a house fire, you need to be prepared to take care of your animals. A pre-determined disaster plan will help you remain calm and think clearly.
+Additional pet first aid links
+American Animal Hospital Association (AAHA)/Healthy Pet: Pet First Aid
+The University of Illinois College of Veterinary Medicine: Basic First Aid for Your Pet
+American Red Cross: First Aid for Pets
+" />
+
+            </ScrollView>
+        </LinearLayout>
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"

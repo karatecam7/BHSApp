@@ -19,7 +19,36 @@
         android:layout_height="match_parent"
 
         tools:context="opportunityhack.bhsapp.MainActivity">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="465dp"
+            android:orientation="vertical">
 
+            <ScrollView
+                android:id="@+id/SCROLLER_ID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A lost pet can be a very terrifying experience for both pet and pet owner.  Here are tips to help keep your pet by your side.
+Keep identification on him or her.  An identification tag, licensing tag, and Rabies tag should be kept visual on your pet's collar at all times, even if the pet lives strictly indoors.  It’s a good idea to include your pet’s name and your telephone number on the id tag so people can easily reach you.
+
+Microchipping is another great form of identification. A microchip is a small implant that goes under the pet's skin with an I.D. number that gets registered with the administrating company through which it is administered.  Ask your vet if they are able to microchip your cat or dog.  If not, a low cost Veterinary Wellness and Spay/Neuter Center like the one at Baltimore Humane Society will microchip your pet for at a discount.
+
+Keeping up-to-date hard copy photos of your pets.  You want to have a photographic record as they age through the years. Take close up shots of unique markings or scarring to help narrow down a search at a shelter or online ad.
+
+If your pet is lost, contact as many vets and shelters in the area to leave detailed lost reports in case the pet is brought to their organization.  And don’t forget social media.  Tweet, use Instagram, and post on many organizations’ Facebook pages and other special “lost pet” Facebook pages as possible.
+" />
+
+            </ScrollView>
+        </LinearLayout>
 
         <Button
             android:id="@+id/button"

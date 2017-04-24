@@ -20,7 +20,46 @@
 
         tools:context="opportunityhack.bhsapp.MainActivity">
 
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="465dp"
+            android:orientation="vertical">
 
+            <ScrollView
+                android:id="@+id/SCROLLER_ID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Never, ever leave your dog in the car. Cars can overheat quickly to deadly temperatures.
+Make sure your dog has unlimited access to fresh water;
+Make sure your dog has access to shade when outside;
+Take walks during the cooler hours of the day;
+When walking, try to stay off of hot surfaces (like asphalt) because it can burn your dog's paws;
+If you think it's hot outside, it's even hotter for your pet – make sure your pet has a means of cooling off;
+Keep your dog free of external parasites (fleas, ticks) and heartworms – consult your veterinarian about the best product for your pet;
+Consider clipping or shaving dogs with long coats (talk to your veterinarian first to see if it's appropriate for your pet), and apply sunscreen to your dog's skin if she or he has a thin coat.
+
+Signs of Heat Stress
+Seek emergency veterinary care if you observe any of these signs:
+Anxiousness
+Excessive panting
+Restlessness
+Excessive drooling
+Unsteadiness
+Abnormal gum and tongue color
+Collapse
+" />
+
+            </ScrollView>
+        </LinearLayout>
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"

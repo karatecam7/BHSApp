@@ -19,7 +19,103 @@
         android:layout_height="match_parent"
 
         tools:context="opportunityhack.bhsapp.MainActivity">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="465dp"
+            android:orientation="vertical">
 
+            <ScrollView
+                android:id="@+id/SCROLLER_ID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Every home contains a variety of everyday items and substances that can be dangerous or even fatal if ingested by dogs and cats. You can protect your pet’s health by becoming aware of the most common health hazards found in many pet-owning households.
+Hazards in the Kitchen
+Foods
+Many foods are perfectly safe for humans, but could be harmful or potentially deadly to pets. To be safe, keep the following food items out of your pet’s menu:
+Coffee grounds
+Fatty foods
+Tea
+Chocolate
+Avocado
+Alcohol
+Yeast dough
+Grapes/raisins
+Salt
+Macadamia nuts
+Onions
+Garlic
+Any products containing xylitol (an artificial sweetener)
+Always keep garbage out of a pet’s reach, as rotting food contains molds or bacteria that could cause food poisoning.
+Cleaning Products
+Many household cleaners can be used safely around pets. However, the key to safe use lies in reading and following product directions for proper use and storage.
+For instance, if the label states “keep pets and children away from area until dry”, follow those directions to prevent possible health risks. Products containing bleach can safely disinfect many household surfaces when used properly, but can cause stomach upset, drooling, vomiting or diarrhea, severe burns if swallowed, and respiratory tract irritation if inhaled in a high enough concentration. In addition, skin contact with concentrated solutions may produce serious chemical burns. Some detergents can produce a similar reaction and cats can be particularly sensitive to certain ingredients such as phenols.
+As a general rule, store all cleaning products in a secure cabinet out of the reach of pets and keep them in their original packaging, or in a clearly labeled and tightly sealed container.
+Insecticides/Rodenticides
+As with household cleaners, read and follow label instructions before using any type of pesticide in your pet’s environment. For example, flea and tick products labeled “for use on dogs only” should never be used on cats or other species, as serious or even life-threatening problems could result. Always consult with your veterinarian about the safe use of these products for your pet.
+If a pet ingests rat or mouse poison, potentially serious or even life-threatening illness can result; therefore, when using any rodenticide, it is important to place the poison in areas completely inaccessible to pets. Some of the newer rodenticides have no known antidote, and can pose significant safety risks to animals and people.
+Hazards in the Bathroom
+Medications
+All medicines should be tightly closed and stored securely and away from pets.
+Medications that treat human medical conditions can make pets very sick. Never give your pet any medication, including over-the-counter medications, unless directed by your veterinarian. As a rule, all medicines should be tightly closed and stored securely and away from pets.
+Medications that pose higher risk include:
+Non-steroidal anti-inflammatory drugs such as aspirin, ibuprofen or naproxen
+Acetaminophen
+Diet Pills/Vitamins
+Cold Medicines
+Antihistamines
+Prescription Drugs
+Antidepressants
+Soaps and other Sundries
+Bath and hand soaps, toothpaste and sun screens should also be kept away from your pets. They can cause stomach upset, vomiting or diarrhea. Keep toilet lids closed to prevent your pets from consuming treated toilet bowl water that could irritate their digestive tract.
+Hazards in the Bedroom and Living Room
+While they may smell good, many liquid potpourri products contain ingredients that can cause oral ulcerations and other problems, so keep them out of the reach of your pets.
+Just one mothball has the potential to sicken a dog or cat; mothballs that contain naphthalene can cause serious illness, including digestive tract irritation, liver, kidney and blood cell damage, swelling of the brain tissues, seizures, coma, respiratory tract damage (if inhaled) and even death (if ingested). Tobacco products, pennies (those minted after 1982 contain zinc) and alkaline batteries (like those in your remote controls) can also be hazardous when ingested.
+Hazards in the Garage and Yard
+Paints and Solvents
+Antifreeze, Herbicides and Insecticides
+Ethylene glycol-containing antifreeze and coolants, even in small quantities, can be fatal to pets. While antifreeze products containing propylene glycol are less toxic than those containing ethylene glycol, they can still be dangerous. In addition to antifreeze, other substances routinely stored in the garage including insecticides, plant/lawn fertilizers, weed killers, ice-melting products, and gasoline also pose a threat to your pet’s health if ingested.
+When chemical treatments are applied to grassy areas, be sure and keep your pet off the lawn for the manufacturer’s recommended time. If pets are exposed to wet chemicals or granules that adhere to their legs or body, they may lick it off later; stomach upset or more serious problems could result.
+Paint thinners, mineral spirits, and other solvents are dangerous and can cause severe irritation or chemical burns if swallowed or if they come in contact with your pet’s skin.
+While most latex house paints typically produce a minor stomach upset, some types of artist’s or other specialty paints may contain heavy metals or volatile substances that could become harmful if inhaled or ingested.
+Plants - Inside or Around the House
+There are many household and yard plants that can sicken your pet.
+There are many household and yard plants that can sicken your pet. Some of the most commonly grown greenery that should be kept away from pets includes:
+Certain types of lilies (Lilium and Hemerocallis species) are highly toxic to cats, resulting in kidney failure — even if only small amounts are ingested.
+Lily of the Valley, oleander, yew, foxglove, and kalanchoe may cause heart problems if ingested.
+Sago palms (Cycas species) can cause severe intestinal problems, seizures and liver damage, especially if the nut portion of the plant is consumed.
+Azaleas, rhododendrons and tulip/narcissus bulbs can cause intestinal upset, weakness, depression, heart problems, coma and death.
+Castor bean can cause severe intestinal problems, seizures, coma, and death. Other plants that can cause intestinal upset include cyclamen, amaryllis, chrysanthemums, pothos, English ivy, philodendron, corn plant, mother-in-law’s tongue, hibiscus, hydrangea, peace lily and schefflera/scheffleria.
+Rhubarb leaves and shamrock contain substances that can produce kidney failure.
+Additionally, fungi (such as certain varieties of mushrooms) can cause liver damage or other illnesses.
+A few other potentially harmful plants include the yesterday-today-and-tomorrow plant (Brunfelsia species), autumn crocus (Colchicum species), and glory lily (Gloriosa species).
+Other Household Hazards
+Small items that fall on the floor can be easily swallowed by a curious pet. Such items include coins, buttons, small children’s toys, medicine bottles, jewelry, nails and screws. The result may be damage to your pet’s digestive tract and the need for surgical removal of the object.
+While electrical cords are especially tempting to puppies, ferrets and pet rodents who like to chew on almost anything, even an adult dog or cat could find them of interest; burns or electrocution could result from chewing on live cords. Prevent this by using cord covers and blocking access to wires.
+A note about narcotics
+Narcotics, including marijuana, can pose life-threatening risks to your pets if ingested. If you suspect your pet has ingested any narcotics, please notify your veterinarian immediately so your pet can receive the life-saving treatment they need.
+
+Holiday Hazards
+Holidays and visitors can pose a special challenge to your pets. Discourage well-meaning guests from spoiling pets with extra treats and scraps from the dinner table. Fatty, rich, or spicy foods can cause vomiting and diarrhea and lead to inflammation of the pancreas, which can be life-threatening. Poultry or other soft bones can splinter and damage your pet’s mouth or esophagus.
+While trick-or-treating is fun for children, it can be hazardous to pets. Halloween treats such as chocolate or candy sweetened with xylitol can make a harmful snack. Certain  holiday decorations (especially tinsel, ribbons and ornaments) also pose a hazard to pets, so make sure nothing is left on the floor or on tables within reach.
+String-like items can damage your pet’s intestine and could prove fatal if not surgically removed. While poinsettia is not deadly as popular legend would have it, it could still cause an upset stomach if consumed. Holly and mistletoe are more toxic than poinsettias and can cause intestinal upset. Christmas tree water treated with preservatives (including fertilizers) can also cause an upset stomach. Water that is allowed to stagnate in tree stands contains bacteria that, if ingested, could lead to nausea, vomiting and diarrhea.
+A Special Note of Caution to Bird Owners
+Most hazards listed here also apply to your pet bird, particularly if it is allowed to roam freely outside of its cage. In addition, birds are especially vulnerable to inhaled particles and fumes from aerosol products, tobacco products, certain glues, paints and air fresheners. Birds should never be allowed in areas where such products are being used. As a rule, birds should never be kept in kitchens because cooking fumes, smoke and odors can present a potentially fatal hazard.
+What to do if your pet is poisoned
+Don’t wait! Time is critical for successfully treating accidental poisoning. Pick up the phone and call your veterinarian or the ASPCA Animal Poison Control Center (1-888-426-4435; a consultation fee may apply). Be prepared to provide your pet’s breed, age, weight and any symptoms. Keep the product container or plant sample with you to assist in identification so the appropriate treatment recommendations can be made.
+
+" />
+
+            </ScrollView>
+        </LinearLayout>
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"

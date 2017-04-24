@@ -19,7 +19,41 @@
         android:layout_height="match_parent"
 
         tools:context="opportunityhack.bhsapp.MainActivity">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="465dp"
+            android:orientation="vertical">
 
+            <ScrollView
+                android:id="@+id/SCROLLER_ID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="∙Scoop and change your cat’s litter at least once a day. Rinse the litter box out completely with baking soda or unscented soap once a week.
+∙ Make sure the litter box is large enough for your cat! Cats prefer large boxes that they can enter and stand in easily. Plastic sweater storage containers make excellent litter boxes. ∙ The general rule of thumb is one box for each cat plus one more.
+∙ Most cats like a shallow bed of litter. Provide one to two inches of litter rather than three to four inches. ∙ Most cats prefer clumping, unscented litter.
+∙ Most cats don’t like box liners or lids on their boxes.
+∙ Cats like their litter boxes located in a quiet but not “cornered” location. Avoid placing litter boxes next to noisy or heat-radiating appliances, like the furnace or the washing machine. The noise can make a cat nervous, while the warmth of a dryer or furnace can magnify the litter box smell, which could make him stay away from it.
+∙ Put the box far away from his food and water bowls. Cats don't like that smell too near their food and may not use the box.
+∙ If you have multiple cats do not place all the litter boxes in one space to prevent one cat bullying another and preventing them from accessing the litter box.
+∙ Place at least one litter box on each level of your house. There are several medical issues that can be responsible for a cat not using his litter box. These issues range from bacterial infections to a blockage in the urinary tract (more common in males and can be fatal if not dealt with quickly). So if your cat isn’t using the litter box anymore your first step is to take them to your vet for a full check-up. Make sure to tell your vet that your cat is not using the litter box. If medical reasons are ruled out, use the tips in the list above to make the litter box more appealing to your cat. If you have done all those things and are still having issues please call the BHS trainer.
+DO NOT:
+∙ Rub your cat’s nose in their urine or feces.
+∙ Scold your cat and carry and/or drag her to the litter box.
+∙ Confine your cat to a small room with the litter box, for days to weeks or longer, without doing anything else to resolve her elimination problems.
+∙ Clean up accidents with an ammonia-based cleanser. Urine contains ammonia, and therefore cleaning with ammonia could attract your cat to the same spot to urinate again. Instead, use a product specifically for cleaning pet accidents, such as Nature’s Miracle®.
+" />
+
+            </ScrollView>
+        </LinearLayout>
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"

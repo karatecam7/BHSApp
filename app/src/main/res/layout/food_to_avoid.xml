@@ -19,7 +19,34 @@
         android:layout_height="match_parent"
 
         tools:context="opportunityhack.bhsapp.MainActivity">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="465dp"
+            android:orientation="vertical">
 
+            <ScrollView
+                android:id="@+id/SCROLLER_ID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Xylitol-containing products (xylitol is an artificial sweetener often found in sugar-free candy and gum);
+Chocolate (although some types of chocolate are not as toxic as others, it's safer to keep your pet away from all types of chocolate);
+Onions;
+Grapes and raisins;
+Fatty and fried foods;
+Macadamia nuts
+Avocados" />
+
+            </ScrollView>
+        </LinearLayout>
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"

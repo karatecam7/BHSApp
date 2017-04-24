@@ -19,7 +19,37 @@
         android:layout_height="match_parent"
 
         tools:context="opportunityhack.bhsapp.MainActivity">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="465dp"
+            android:orientation="vertical">
 
+            <ScrollView
+                android:id="@+id/SCROLLER_ID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Q: How do you get a dog to overcome a fear of swimming?
+
+A:
+The most important thing is to not push or force your dog in the water. This will only cause him to develop more fear and anxiety towards it.  Whether or not your dog swims is really not important.  There are many other hobbies to try that you and your dog can enjoy.
+If you haven't already, consider first taking a basic obedience course. Even if your dog already knows the basics, this will strengthen the bond and trust he has with you. After that, the opportunities are limitless! Scent work classes can be a lot of fun. This is where you train your dog to identify certain scents and then find them in various places.
+Agility is also fantastic and provides great confidence building components for your pet as well as physical exercise (for the both of you!). Maybe instead of swimming, you have the next agility star, or sniffer dog on your hands! The key is to find something your dog enjoys and enjoy it with him!
+If you still want to try and work with your dog to swim, then try using high value treats (think boiled chicken, low fat cheese, turkey dogs). Walk the dog near the water and treat occasionally. Keep walking closer until you are able to lure him in with the treats. If that doesn't work, then you just may have to accept the fact that he's probably just not meant to be a swimmer.
+
+By Amanda Serafini, Training and Behavior Manager, Veterinary Technician
+" />
+
+            </ScrollView>
+        </LinearLayout>
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"

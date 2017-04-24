@@ -19,7 +19,33 @@
         android:layout_height="match_parent"
 
         tools:context="opportunityhack.bhsapp.MainActivity">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="465dp"
+            android:orientation="vertical">
 
+            <ScrollView
+                android:id="@+id/SCROLLER_ID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="vertical">
+
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amanda Serafini, Registered Vet Tech and Training and Behavior Manager, Baltimore Humane Society
+
+Q: Someone told me recently that if pavement is too hot for me to lay my hand on it, it's too hot for my dog's paws and I shouldn't walk him. Is that true? Do I need to worry about my dog's paws getting burned this summer?
+
+A:
+As the outside temperature rises, so does the temperature of the surfaces our dogs frequently walk on. We do need to be cognizant of how hot the pavement is during the day when we walk our 4 legged friends. To put it in perspective, on a lovely 77 degree day, asphalt located in direct sunlight can reach as high as 125degrees! At this temperature, skin destruction can occur in as little as 60 seconds. It would take 5 minutes for an egg to fry at 131degrees. We fortunately, wear shoes that give the bottoms of our feet protection from this, but our pets do not have that luxury. On hot days, stick to short walks on sidewalk/light colored concrete or avoid the hard surfaces all together and walk only on the grass. The tissue that makes up our pets' paw pads is a specialized type that is different than the skin that covers their body and it isn't covered in fur. This leaves it vulnerable to extremely hot surfaces. And don't forget about our kitty friends! If your cat likes to go outside, consider keeping it indoors during the warm summer days or try leash walking across the grass!" />
+
+            </ScrollView>
+        </LinearLayout>
         <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
