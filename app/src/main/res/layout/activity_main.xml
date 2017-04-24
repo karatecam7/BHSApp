@@ -25,10 +25,10 @@
             android:id="@+id/button10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/button5"
             android:onClick="goToSwim"
-            android:text="How to teach your dog how to swim" />
+            android:text="How to teach your dog how to swim"
+            android:layout_below="@+id/button5"
+            android:layout_alignParentStart="true" />
 
         <Button
 
@@ -57,9 +57,8 @@
             android:layout_height="wrap_content"
             android:onClick="goToCatSeperation"
             android:text="Cat Separation Anxiety"
-            android:layout_below="@+id/button5"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="45dp" />
+            android:layout_below="@+id/button10"
+            android:layout_alignStart="@+id/button11" />
 
         <Button
 
@@ -76,21 +75,20 @@
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/button4"
-            android:layout_marginTop="30dp"
             android:onClick="goToFoodToAvoid"
-            android:text="Foods to avoid" />
+            android:text="Foods to avoid"
+            android:layout_below="@+id/button3"
+            android:layout_alignStart="@+id/button10" />
 
         <Button
 
             android:id="@+id/button5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/button2"
             android:onClick="goToFourth"
-            android:text="Fourth of July" />
+            android:text="Fourth of July"
+            android:layout_below="@+id/button2"
+            android:layout_alignStart="@+id/button6" />
 
         <Button
 
@@ -108,8 +106,8 @@
             android:layout_height="wrap_content"
             android:onClick="goToHouseHazards"
             android:text="House Hazards"
-            android:layout_centerVertical="true"
-            android:layout_alignParentStart="true" />
+            android:layout_below="@+id/button4"
+            android:layout_alignEnd="@+id/button5" />
 
         <Button
             android:id="@+id/button8"
