@@ -37,6 +37,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textSize="17dp"
                     android:text="Amanda Serafini, Registered Vet Tech and Training and Behavior Manager, Baltimore Humane Society
 
 Q: Someone told me recently that if pavement is too hot for me to lay my hand on it, it's too hot for my dog's paws and I shouldn't walk him. Is that true? Do I need to worry about my dog's paws getting burned this summer?

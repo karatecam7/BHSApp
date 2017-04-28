@@ -10,7 +10,7 @@ public class WarmWeather extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.change_dog_name);
+        setContentView(R.layout.warm_weather);
     }
 
     public void goToActivitymain(View view) {

@@ -37,6 +37,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textSize="17dp"
                     android:text="A lost pet can be a very terrifying experience for both pet and pet owner.  Here are tips to help keep your pet by your side.
 Keep identification on him or her.  An identification tag, licensing tag, and Rabies tag should be kept visual on your pet's collar at all times, even if the pet lives strictly indoors.  It’s a good idea to include your pet’s name and your telephone number on the id tag so people can easily reach you.
 

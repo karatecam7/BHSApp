@@ -11,7 +11,7 @@ public class HouseHazard extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.change_dog_name);
+        setContentView(R.layout.house_hazard);
     }
 
     public void goToActivitymain(View view) {

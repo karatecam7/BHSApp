@@ -11,7 +11,7 @@ public class HotSidewalk extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.change_dog_name);
+        setContentView(R.layout.hot_sidewalks);
     }
 
     public void goToActivitymain(View view) {

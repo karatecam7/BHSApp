@@ -37,6 +37,8 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+
+                    android:textSize="17dp"
                     android:text="What would you do if:
 ...your dog ate the bag of semi-sweet chocolate chips that was left out on the kitchen counter?
 ...your cat had a seizure right in front of you?

@@ -37,6 +37,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textSize="17dp"
                     android:text="∙Scoop and change your cat’s litter at least once a day. Rinse the litter box out completely with baking soda or unscented soap once a week.
 ∙ Make sure the litter box is large enough for your cat! Cats prefer large boxes that they can enter and stand in easily. Plastic sweater storage containers make excellent litter boxes. ∙ The general rule of thumb is one box for each cat plus one more.
 ∙ Most cats like a shallow bed of litter. Provide one to two inches of litter rather than three to four inches. ∙ Most cats prefer clumping, unscented litter.

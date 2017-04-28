@@ -11,7 +11,7 @@ public class FourthOfJuly extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.change_dog_name);
+        setContentView(R.layout.fourth_of_july);
 
     }
 

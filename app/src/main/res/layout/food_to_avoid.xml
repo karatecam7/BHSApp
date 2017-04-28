@@ -37,6 +37,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textSize="17dp"
                     android:text="Xylitol-containing products (xylitol is an artificial sweetener often found in sugar-free candy and gum);
 Chocolate (although some types of chocolate are not as toxic as others, it's safer to keep your pet away from all types of chocolate);
 Onions;

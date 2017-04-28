@@ -37,6 +37,7 @@
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textSize="17dp"
                     android:text="Every home contains a variety of everyday items and substances that can be dangerous or even fatal if ingested by dogs and cats. You can protect your pet’s health by becoming aware of the most common health hazards found in many pet-owning households.
 Hazards in the Kitchen
 Foods
